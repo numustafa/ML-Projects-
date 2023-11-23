@@ -8,3 +8,13 @@ You're given a [CSV file](https://raw.githubusercontent.com/JovianML/opendataset
 > <img src="https://i.imgur.com/87Uw0aG.png" width="480">
 >
 > Dataset source: https://github.com/stedy/Machine-Learning-with-R-datasets
+
+
+This is a learning project, for refreshing my scikit-learn Regression concepts. This project is part of a fcc course, and includes the following:
+* Typical problem statement
+* Exploring Dataset
+* Apply Linear Regression:
+  1. with one var
+  2. with multiple var
+* Feature Engineering
+
