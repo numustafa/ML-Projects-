@@ -48,3 +48,27 @@ The sigmoid function applied to the linear combination of inputs has the followi
 
 
 The output of the sigmoid function is called a logistic, hence the name _logistic regression_. For a mathematical discussion of logistic regression, sigmoid activation and cross entropy, check out [this YouTube playlist](https://www.youtube.com/watch?v=-la3q9d7AKQ&list=PLNeKWBMsAzboR8vvhnlanxCNr2V7ITuxy&index=1). Logistic regression can also be applied to multi-class classification problems, with a few modifications.
+
+
+### Machine Learning Workflow
+
+Whether we're solving a regression problem using linear regression or a classification problem using logistic regression, the workflow for training a model is exactly the same:
+
+1. We initialize a model with random parameters (weights & biases).
+2. We pass some inputs into the model to obtain predictions.
+3. We compare the model's predictions with the actual targets using the loss function.  
+4. We use an optimization technique (like least squares, gradient descent etc.) to reduce the loss by adjusting the weights & biases of the model
+5. We repeat steps 1 to 4 till the predictions from the model are good enough.
+
+
+<img src="https://i.imgur.com/g32CoIy.png" width="480">
+
+
+Classification and regression are both supervised machine learning problems, because they use labeled data. Machine learning applied to unlabeled data is known as unsupervised learning ([image source](https://au.mathworks.com/help/stats/machine-learning-in-matlab.html)). 
+
+<img src="https://i.imgur.com/1EMQmAw.png" width="480">
+
+
+In this tutorial, we'll train a _logistic regression_ model using the Rain in Australia dataset to predict whether or not it will rain at a location tomorrow, using today's data. This is a _binary classification_ problem.
+
+Let's install the `scikit-learn` library which we'll use to train our model.
