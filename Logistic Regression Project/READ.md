@@ -15,6 +15,18 @@ This is a [Kaggle](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle
 
 In the project, I will use _logistic regression_, which is better suited for _classification_ problems like predicting whether it will rain tomorrow. 
 
+### Linear Regression for Solving Regression Problems
+
+Linear regression is a commonly used technique for solving regression problems. In a linear regression model, the target is modeled as a linear combination (or weighted sum) of input features. The predictions from the model are evaluated using a loss function like the Root Mean Squared Error (RMSE).
+
+
+Here's a visual summary of how a linear regression model is structured:
+
+<img src="https://i.imgur.com/iTM2s5k.png" width="480">
+
+
+For a mathematical discussion of linear regression, watch [this YouTube playlist](https://www.youtube.com/watch?v=kHwlB_j7Hkc&list=PLJs7lEb1U5pYnrI0Wn4mzPmppVqwERL_4&index=1)
+
 ### Logistic Regression for Solving Classification Problems
 
 Logistic regression is a commonly used technique for solving binary classification problems. In a logistic regression model: 
